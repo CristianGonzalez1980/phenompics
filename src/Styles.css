@@ -1,0 +1,52 @@
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+  }
+  
+  .fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 250ms ease-in;
+  }
+
+.fill .hsl .content {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0;
+  bottom: 0px;
+}
+
+.content {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  font-size: x-large;
+}
+
+.nav :hover {
+background-color: lawngreen;
+font-weight: bold;
+}
+
+.navItem {
+  text-align: center;
+  flex: 1;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.hsl {
+  color: white;
+  padding-top: 20px;
+  font-size: 50px;
+  height: 560px;
+}
