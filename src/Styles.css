@@ -27,7 +27,7 @@
   position: absolute;
   top: 0;
   height: 40px;
-  width: 100%;
+  width: 100vw;
   display: flex;
   font-size: x-large;
 }
@@ -41,12 +41,26 @@ font-weight: bold;
   text-align: center;
   flex: 1;
   list-style-type: none;
-  padding: 10px;
+  padding: 2px;
 }
 
 .hsl {
   color: white;
+  padding-top: 15px;
+  font-size: 40px;
+  height: 90vh;
+}
+
+.hslprofile {
+  color: white;
+  padding-top: 15px;
+  font-size: 40px;
+  height: 20vh;
+}
+
+.contact {
+  color: white;
   padding-top: 20px;
-  font-size: 50px;
-  height: 560px;
+  font-size: 40px;
+  height: 100px;
 }

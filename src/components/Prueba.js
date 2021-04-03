@@ -2,23 +2,15 @@
     useParams
 } from "react-router-dom"; */
 import "../Styles.css";
-/* import bkpic from "../images/waterpark.png"; */
-
 import bkpic from "../images/set.png";
 import bkpic2 from "../images/waterpark.png";
 import bkpic3 from "../images/costanera.png";
 
-const ARTISTIC = () => {
+const PRUEBA = () => {
     /*     let { col } = useParams(); */
 
     return (
-        <div className="hsl"
-            style={{
-                backgroundImage: `url(${bkpic})`,
-            }}
-        >
-            ARTISTIC
-       {/*      <div>
+            <div>
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -57,10 +49,8 @@ const ARTISTIC = () => {
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-
-            </div> */}
-        </div>
+            </div>
     );
 }
 
-export default ARTISTIC;
+export default PRUEBA;

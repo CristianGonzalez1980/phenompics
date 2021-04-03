@@ -41,10 +41,10 @@ function AnimationApp() {
   return (
     <div className="fill">
       <ul className="nav">
-        <NavLink to="/home/red">Home</NavLink>
-        <NavLink to="/profile/green">Profile</NavLink>
-        <NavLink to="/artistic/blue">Artistic</NavLink>
-        <NavLink to="/contact/pink">Contact</NavLink>
+        <NavLink to="/home">Home</NavLink>
+        <NavLink to="/profile">Profile</NavLink>
+        <NavLink to="/artistic">Artistic</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
       </ul>
 
       <div className="content">
@@ -61,14 +61,15 @@ function AnimationApp() {
             timeout={300}
           >
             <Switch location={location}>
-              <Route path="/home/:col" children={<HOME />} />
-              <Route path="/profile/:col" children={<PROFILE />} />
-              <Route path="/artistic/:col" children={<ARTISTIC />} />
-              <Route path="/contact/:col" children={<CONTACT />} />
+              <Route path="/home" children={<HOME />} />
+              <Route path="/profile" children={<PROFILE />} />
+              <Route path="/artistic" children={<ARTISTIC />} />
+              <Route path="/contact" children={<CONTACT />} />
             </Switch>
           </CSSTransition>
         </TransitionGroup>
       </div>
+      <footer>Phenompics 2021</footer>
     </div>
   );
 }
