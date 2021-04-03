@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/phenompics/static/css/main.c02ccad0.chunk.css",
+    "main.js": "/phenompics/static/js/main.f342b387.chunk.js",
+    "main.js.map": "/phenompics/static/js/main.f342b387.chunk.js.map",
+    "runtime-main.js": "/phenompics/static/js/runtime-main.a2599a3f.js",
+    "runtime-main.js.map": "/phenompics/static/js/runtime-main.a2599a3f.js.map",
+    "static/js/2.aefbe644.chunk.js": "/phenompics/static/js/2.aefbe644.chunk.js",
+    "static/js/2.aefbe644.chunk.js.map": "/phenompics/static/js/2.aefbe644.chunk.js.map",
+    "static/js/3.bf0401c1.chunk.js": "/phenompics/static/js/3.bf0401c1.chunk.js",
+    "static/js/3.bf0401c1.chunk.js.map": "/phenompics/static/js/3.bf0401c1.chunk.js.map",
+    "index.html": "/phenompics/index.html",
+    "static/css/main.c02ccad0.chunk.css.map": "/phenompics/static/css/main.c02ccad0.chunk.css.map",
+    "static/js/2.aefbe644.chunk.js.LICENSE.txt": "/phenompics/static/js/2.aefbe644.chunk.js.LICENSE.txt",
+    "static/media/Cristian.7ca27605.JPG": "/phenompics/static/media/Cristian.7ca27605.JPG",
+    "static/media/Jazmin.168a0660.jpg": "/phenompics/static/media/Jazmin.168a0660.jpg",
+    "static/media/Matias.e73d9a6c.JPG": "/phenompics/static/media/Matias.e73d9a6c.JPG",
+    "static/media/Mayra.5cfe831c.jpg": "/phenompics/static/media/Mayra.5cfe831c.jpg",
+    "static/media/camera-flash-png.87426fec.png": "/phenompics/static/media/camera-flash-png.87426fec.png",
+    "static/media/costanera.ba0c8fe8.png": "/phenompics/static/media/costanera.ba0c8fe8.png",
+    "static/media/set.14d90a06.png": "/phenompics/static/media/set.14d90a06.png",
+    "static/media/waterpark.c24ab636.png": "/phenompics/static/media/waterpark.c24ab636.png",
+    "static/media/zoom.7d164d90.png": "/phenompics/static/media/zoom.7d164d90.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2599a3f.js",
+    "static/js/2.aefbe644.chunk.js",
+    "static/css/main.c02ccad0.chunk.css",
+    "static/js/main.f342b387.chunk.js"
+  ]
+}
