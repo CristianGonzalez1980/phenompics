@@ -2,54 +2,58 @@
     useParams
 } from "react-router-dom"; */
 import "../Styles.css";
-import bkpic from "../images/zoom.png";
-import bkpic2 from "../images/waterpark.png";
-import bkpic3 from "../images/costanera.png";
+import bkpic from "../images/set.png";
 
 const HOME = () => {
-/*     let { col } = useParams(); */
+    /*     let { col } = useParams(); */
 
     return (
-        <div>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div style={{
+            backgroundColor: 'lightblue'
+        }}>
+            <div /*  style={{
+                backgroundImage: `url(${bkpic})`
+            }} */>
+                <div className="hslhome"
+                >
+                    HOME PAGE
+                <container style={{ display: 'flex', fontSize: '22px', color: 'gray' }} >
+                        <section style={{ height: '300px', marginLeft: '10vh', marginRight: '10vh' }}>
+                            <div class="card mb-3" style={{ maxWidth: '1200px', maxHeight: '900px', borderRadius: '0.5%'/* , margin: '20px' */ }}>
+                                <div class="row g-0">
+                                    <div class="col-md-6">
+                                        <img src="https://res.cloudinary.com/expovirtual/image/upload/v1617502068/phenompics/Fotografo_b5jgdk.jpg" alt="..." style={{ maxWidth: '270px', padding: 20 }} />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <h5 class="card-title">WHOAMI</h5>
+                                            <p class="card-text">Mi nombre es Cristian, intersado por encontrar vibraciones en cada individuo y capturarlos en fotografias. Incansable buscador de momentos, paisajes y relaciones entre los protagonistas naturales en fotografias de paisaje.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        {/*   <section style={{ height: '300px', marginLeft: '10vh' }}>
+                        <div class="card mb-3" style={{ maxWidth: '540px'/* , margin: '20px' }}>
+                            <div class="row g-0">
+                                <div class="col-md-6">
+                                    <img src="https://res.cloudinary.com/expovirtual/image/upload/v1617502068/phenompics/Fotografo_b5jgdk.jpg" alt="..." style={{ maxWidth: '270px', padding: 20 }} />
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h5 class="card-title">WHOAMI</h5>
+                                        <p class="card-text">Mi nombre es Cristian, intersado por encontrar vibraciones en cada individuo y capturarlos en fotografias. Incansable buscador de momentos, paisajes y relaciones entre los protagonistas naturales en fotografias de paisaje.</p>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section> */}
+                    </container>
+                </div>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src={bkpic2} class="d-block w-100" alt="..." />
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src={bkpic} class="d-block w-100" alt="..." />
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src={bkpic3} class="d-block w-100" alt="..." />
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
-    </div>
     );
 }
 

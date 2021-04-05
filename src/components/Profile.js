@@ -4,10 +4,6 @@
 
 import "../Styles.css";
 import bkpic from "../images/set.png";
-import mayra from "../images/Mayra.jpg";
-import matias from "../images/Matias.JPG";
-import cristian from "../images/Cristian.JPG";
-import jazmin from "../images/Jazmin.jpg";
 import { useEffect, useState } from "react";
 
 const PROFILE = () => {
@@ -19,29 +15,64 @@ const PROFILE = () => {
     useEffect(() => {
         //cargo las imagenes en la variable ssesions
         let bdSessions = [{
-            image: "https://scontent.feze14-2.fna.fbcdn.net/v/t1.18169-9/391529_3908302758020_1004834115_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=cdbe9c&_nc_ohc=nO8ORhu32lAAX-amrJY&_nc_ht=scontent.feze14-2.fna&oh=30cf6a0fa959aefd7c1a8ba7d950ad1e&oe=608E0E4E",
+            image: "https://res.cloudinary.com/expovirtual/image/upload/v1617488706/phenompics/Alejandro_iwwjhy.jpg",
             name: "Alejandro",
             description: "Sesion de estudio con luces y pantalla reflectora"
         },
         {
-            image: matias,
-            name: "Matias",
-            description: "Sesion de estudio con luces de colores"
+            image: "https://res.cloudinary.com/expovirtual/image/upload/v1617492568/phenompics/David_pebkbz.jpg",
+            name: "David",
+            description: "Sesion de estudio con luces y pantalla reflectora"
         },
         {
-            image: mayra,
+            image: "https://res.cloudinary.com/expovirtual/image/upload/v1617488274/phenompics/Mayra_wvjqr9.jpg",
             name: "Mayra",
             description: "Sesion de estudio con luces y pantalla reflectora"
         },
         {
-            image: cristian,
+            image: "https://res.cloudinary.com/expovirtual/image/upload/v1617488276/phenompics/Cristian_eecfgo.jpg",
             name: "Cristian",
             description: "Sesion de estudio con luces de colores"
         },
         {
-            image: jazmin,
+            image: "https://res.cloudinary.com/expovirtual/image/upload/v1617488276/phenompics/Yamila_cohpyg.jpg",
+            name: "Yamila",
+            description: "Sesion de estudio con luces y pantalla reflectora"
+        },
+        {
+            image: "https://res.cloudinary.com/expovirtual/image/upload/v1617488276/phenompics/Matias_rij3z9.jpg",
+            name: "Matias",
+            description: "Sesion de estudio con luces de colores"
+        },
+        {
+            image: "https://res.cloudinary.com/expovirtual/image/upload/v1617492569/phenompics/Guadalupe_o7plxb.jpg",
+            name: "Guadalupe",
+            description: "Sesion en exterior"
+        },
+        {
+            image: "https://res.cloudinary.com/expovirtual/image/upload/v1617488274/phenompics/Jazmin_arjzgz.jpg",
             name: "Jazmin",
             description: "Sesion en exterior arbolado"
+        },
+        {
+            image: "https://res.cloudinary.com/expovirtual/image/upload/v1617492570/phenompics/Agustin_gctgtj.jpg",
+            name: "Agustin",
+            description: "Sesion en exterior arbolado"
+        },
+        {
+            image: "https://res.cloudinary.com/expovirtual/image/upload/v1617495514/phenompics/Claudia_ngffqi.jpg",
+            name: "Claudia",
+            description: "Sesion de estudio con luces y pantalla reflectora"
+        },
+        {
+            image: "https://res.cloudinary.com/expovirtual/image/upload/v1617495120/phenompics/MarinaLuz_qf8msa.jpg",
+            name: "Marina",
+            description: "Sesion en exterior"
+        },
+        {
+            image: "https://res.cloudinary.com/expovirtual/image/upload/v1617495121/phenompics/Rodrigo_l1kcaz.jpg",
+            name: "Rodrigo",
+            description: "Sesion en exterior"
         }
     ]
 
@@ -58,7 +89,7 @@ const PROFILE = () => {
                 >
                     PROFILE PICTURES
             </div>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="row row-cols-1 row-cols-md-3 g-4" >
 
                     {sessions.map(session =>
 

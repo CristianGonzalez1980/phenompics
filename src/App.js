@@ -69,7 +69,7 @@ function AnimationApp() {
           </CSSTransition>
         </TransitionGroup>
       </div>
-      <footer>Phenompics 2021</footer>
+      <footer className="footerApp" >Phenompics 2021</footer>
     </div>
   );
 }
