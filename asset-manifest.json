@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/phenompics/static/css/main.d03e0c7a.chunk.css",
-    "main.js": "/phenompics/static/js/main.b44c68e3.chunk.js",
-    "main.js.map": "/phenompics/static/js/main.b44c68e3.chunk.js.map",
+    "main.css": "/phenompics/static/css/main.2dae1f13.chunk.css",
+    "main.js": "/phenompics/static/js/main.13d01810.chunk.js",
+    "main.js.map": "/phenompics/static/js/main.13d01810.chunk.js.map",
     "runtime-main.js": "/phenompics/static/js/runtime-main.f96b7cd5.js",
     "runtime-main.js.map": "/phenompics/static/js/runtime-main.f96b7cd5.js.map",
     "static/css/2.6b560088.chunk.css": "/phenompics/static/css/2.6b560088.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.8bc67859.chunk.js.map": "/phenompics/static/js/3.8bc67859.chunk.js.map",
     "index.html": "/phenompics/index.html",
     "static/css/2.6b560088.chunk.css.map": "/phenompics/static/css/2.6b560088.chunk.css.map",
-    "static/css/main.d03e0c7a.chunk.css.map": "/phenompics/static/css/main.d03e0c7a.chunk.css.map",
+    "static/css/main.2dae1f13.chunk.css.map": "/phenompics/static/css/main.2dae1f13.chunk.css.map",
     "static/js/2.9f279746.chunk.js.LICENSE.txt": "/phenompics/static/js/2.9f279746.chunk.js.LICENSE.txt",
     "static/media/camera-flash-png.87426fec.png": "/phenompics/static/media/camera-flash-png.87426fec.png",
     "static/media/costanera.ba0c8fe8.png": "/phenompics/static/media/costanera.ba0c8fe8.png",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.f96b7cd5.js",
     "static/css/2.6b560088.chunk.css",
     "static/js/2.9f279746.chunk.js",
-    "static/css/main.d03e0c7a.chunk.css",
-    "static/js/main.b44c68e3.chunk.js"
+    "static/css/main.2dae1f13.chunk.css",
+    "static/js/main.13d01810.chunk.js"
   ]
 }
